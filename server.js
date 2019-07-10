@@ -16,7 +16,6 @@ app.use(express.json());
 require("./routes/apiRoutes")(app);
 require("./routes/htmlRoutes")(app);
 
-// =============================================================================
 // LISTENER -> starts/initiated the server
 
 app.listen(PORT, function() {
